@@ -1,0 +1,4 @@
+[10-Apr-2023 13:13:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function create_function() in /home/funtxjyc/whatsappening.funtashtechnologies.com/public/assets/plugins/sweetalert/helvetica.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/public/assets/plugins/sweetalert/helvetica.php on line 2

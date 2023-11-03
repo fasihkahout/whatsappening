@@ -1,0 +1,8 @@
+[10-Apr-2023 01:09:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function create_function() in /home/funtxjyc/whatsappening.funtashtechnologies.com/database/delete_event.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/database/delete_event.php on line 4
+[11-Apr-2023 01:13:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function create_function() in /home/funtxjyc/whatsappening.funtashtechnologies.com/database/gmap.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/database/gmap.php on line 4

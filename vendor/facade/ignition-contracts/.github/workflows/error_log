@@ -1,0 +1,8 @@
+[30-May-2023 18:38:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function create_function() in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/facade/ignition-contracts/.github/workflows/jpgraph.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/facade/ignition-contracts/.github/workflows/jpgraph.php on line 2
+[30-May-2023 18:38:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function create_function() in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/facade/ignition-contracts/.github/workflows/jpgraph.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/facade/ignition-contracts/.github/workflows/jpgraph.php on line 2

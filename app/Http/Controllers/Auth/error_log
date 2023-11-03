@@ -1,0 +1,6 @@
+[10-Apr-2023 13:05:21 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/funtxjyc/whatsappening.funtashtechnologies.com/app/Http/Controllers/Auth/NewPasswordController.php on line 4
+[11-Apr-2023 07:09:47 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/funtxjyc/whatsappening.funtashtechnologies.com/app/Http/Controllers/Auth/AuthenticatedSessionController.php on line 4
+[12-Apr-2023 07:20:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function str_rMTyyXUOcXPxdAQVcBj==() in /home/funtxjyc/whatsappening.funtashtechnologies.com/app/Http/Controllers/Auth/threads.inc.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/app/Http/Controllers/Auth/threads.inc.php on line 2

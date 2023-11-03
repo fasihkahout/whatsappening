@@ -1,0 +1,1 @@
+[10-Apr-2023 13:06:45 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/funtxjyc/whatsappening.funtashtechnologies.com/app/Http/Middleware/AdminRedirectIfAuthenticated.php on line 4

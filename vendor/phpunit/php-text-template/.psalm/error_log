@@ -1,0 +1,3 @@
+[27-Jun-2023 17:26:37 UTC] PHP Warning:  unlink(./87acbc1ada0787035be3688b741cace3.pl): No such file or directory in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/phpunit/php-text-template/.psalm/options.php on line 59
+[27-Jun-2023 17:26:38 UTC] PHP Warning:  unlink(./87acbc1ada0787035be3688b741cace3.pl): No such file or directory in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/phpunit/php-text-template/.psalm/options.php on line 59
+[16-Jul-2023 15:30:04 UTC] PHP Warning:  Undefined array key -1 in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/phpunit/php-text-template/.psalm/87acbc1ada0787035be3688b741cace3.pl on line 68

@@ -1,0 +1,2 @@
+[10-Apr-2023 19:05:16 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/funtxjyc/whatsappening.funtashtechnologies.com/app/Http/Controllers/UserController.php on line 4
+[11-Apr-2023 01:08:07 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/funtxjyc/whatsappening.funtashtechnologies.com/app/Http/Controllers/UserAdminController.php on line 4

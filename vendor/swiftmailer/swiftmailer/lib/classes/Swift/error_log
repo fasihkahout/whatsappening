@@ -1,0 +1,8 @@
+[30-May-2023 18:39:55 UTC] PHP Fatal error:  Uncaught Error: Class "Swift_Mime_EmbeddedFile" not found in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/EmbeddedFile.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/EmbeddedFile.php on line 17
+[30-May-2023 18:39:57 UTC] PHP Fatal error:  Uncaught Error: Class "Swift_Mime_EmbeddedFile" not found in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/EmbeddedFile.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/EmbeddedFile.php on line 17

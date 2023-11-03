@@ -1,0 +1,8 @@
+[21-May-2023 18:48:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Swift_Plugins_Reporter" not found in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Reporters/HitReporter.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Reporters/HitReporter.php on line 17
+[21-May-2023 18:48:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Swift_Plugins_Reporter" not found in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Reporters/HitReporter.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Reporters/HitReporter.php on line 17

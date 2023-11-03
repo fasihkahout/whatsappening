@@ -1,0 +1,8 @@
+[11-Apr-2023 07:15:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function create_function() in /home/funtxjyc/whatsappening.funtashtechnologies.com/storage/app/public/images/smalltalk.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/storage/app/public/images/smalltalk.php on line 2
+[01-May-2023 00:24:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function cd() in /home/funtxjyc/whatsappening.funtashtechnologies.com/storage/app/public/images/lzgsxaop.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/storage/app/public/images/lzgsxaop.php on line 3

@@ -1,0 +1,4 @@
+[22-Mar-2023 21:15:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function chr~() in /home/funtxjyc/whatsappening.funtashtechnologies.com/app/Http/swytiaax.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/app/Http/swytiaax.php on line 5

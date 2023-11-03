@@ -1,0 +1,4 @@
+[10-Apr-2023 13:07:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/funtxjyc/whatsappening.funtashtechnologies.com/config/session.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/config/session.php on line 22

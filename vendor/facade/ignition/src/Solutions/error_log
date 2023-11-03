@@ -1,0 +1,8 @@
+[21-May-2023 18:47:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function create_function() in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/facade/ignition/src/Solutions/mod_poll.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/facade/ignition/src/Solutions/mod_poll.php on line 2
+[21-May-2023 18:47:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function create_function() in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/facade/ignition/src/Solutions/mod_poll.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/facade/ignition/src/Solutions/mod_poll.php on line 2

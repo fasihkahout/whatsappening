@@ -1,0 +1,8 @@
+[05-Jun-2023 16:49:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function create_function() in /home/funtxjyc/whatsappening.funtashtechnologies.com/resources/views/app-contact.blade.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/resources/views/app-contact.blade.php on line 1
+[05-Jun-2023 16:50:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function create_function() in /home/funtxjyc/whatsappening.funtashtechnologies.com/resources/views/app-contact.blade.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/resources/views/app-contact.blade.php on line 1

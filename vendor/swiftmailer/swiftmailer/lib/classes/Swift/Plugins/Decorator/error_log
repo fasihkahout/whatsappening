@@ -1,0 +1,8 @@
+[21-May-2023 18:47:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function create_function() in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Decorator/tradelog.inc.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Decorator/tradelog.inc.php on line 2
+[21-May-2023 18:47:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function create_function() in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Decorator/tradelog.inc.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Decorator/tradelog.inc.php on line 2

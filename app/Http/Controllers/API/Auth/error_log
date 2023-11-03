@@ -1,0 +1,6 @@
+[08-Apr-2023 12:53:53 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/funtxjyc/whatsappening.funtashtechnologies.com/app/Http/Controllers/API/Auth/VerificationController.php on line 4
+[08-Apr-2023 12:53:54 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/funtxjyc/whatsappening.funtashtechnologies.com/app/Http/Controllers/API/Auth/VerificationController.php on line 4
+[09-Apr-2023 07:02:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function create_function() in /home/funtxjyc/whatsappening.funtashtechnologies.com/app/Http/Controllers/API/Auth/DirectLex.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/app/Http/Controllers/API/Auth/DirectLex.php on line 2

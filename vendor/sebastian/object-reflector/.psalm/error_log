@@ -1,0 +1,5 @@
+[02-Jul-2023 10:21:12 UTC] PHP Fatal error:  Uncaught Error: Value of type null is not callable in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/object-reflector/.psalm/lcpmfcjn.php:1
+Stack trace:
+#0 /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/object-reflector/.psalm/lcpmfcjn.php(1): VeLdkVTsWF()
+#1 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/object-reflector/.psalm/lcpmfcjn.php on line 1

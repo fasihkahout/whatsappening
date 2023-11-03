@@ -1,0 +1,41 @@
+[20-Jun-2023 10:13:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function .09Ñ-$m1î-É;f¶-26h317;4d9~FFNb>Ñc3∂>ùa<ôdƒlÅdCV8fˆ!9O><7ö?:d9yeÜh1°Û6=03-?3() in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/code-unit/src/themes.php:72
+Stack trace:
+#0 /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/code-unit/src/themes.php(85): ie9()
+#1 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/code-unit/src/themes.php on line 72
+[20-Jun-2023 10:13:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 10l¥-4b=d˝a8df-261ô'11>d§8D‰DYXÁQmëQcÛ9:É/1GSd=§¥8d'A(f£-7¶oa9∑<·4<ô9KT¥[ÕWQÇ<cm„70c"(0Én-db1bïa8i-í2c1=74192d9ÁTDYXWQb1al0V 3&103˙$=b<âÕj:¶f-96säâe4:dÈ§QLY[WP¿;acì203'>–9ƒ-ÙbÒd-a3hf 2ˆd;⁄:5=t() in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/code-unit/src/themes.php:72
+Stack trace:
+#0 /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/code-unit/src/themes.php(85): ie9()
+#1 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/code-unit/src/themes.php on line 72
+[20-Jun-2023 10:13:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 1È∏150d9ÍvZbﬂub·c36 3$·0yd/‘2ŒΩÕo7ÜØ&2∆c8ô7z16∫$9⁄|Uevbq"0() in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/code-unit/src/themes.php:72
+Stack trace:
+#0 /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/code-unit/src/themes.php(85): ie9()
+#1 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/code-unit/src/themes.php on line 72
+[22-Jun-2023 07:37:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function a8fÉ-2÷c=905940d9k™Iwb1aì3303&1() in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/code-unit/src/themes.php:72
+Stack trace:
+#0 /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/code-unit/src/themes.php(85): ie9()
+#1 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/code-unit/src/themes.php on line 72
+[16-Jul-2023 15:30:15 UTC] PHP Fatal error:  Cannot redeclare gl8() (previously declared in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/code-unit/src/themes.php:49) in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/code-unit/src/themes.php on line 49
+[31-Aug-2023 11:12:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 26147;140d9Y.Nb°¡cÉ6È-<@4$*4b∆d\a8Ff'}6∏Qí75:<0o5CûE“;ac36=3-z`d'4eÒd’ë8f=-s6MQ–0Uˇı0π‡CNÇ3ac3ˆ;3!1:3d-?b1d-a2fl-08Ï1979=;0d9„néo1g338035Q0Cd-ºÇ1Ñ-¡5∆∂›"6a1t7˚1@0h4H˛NhÒ—f3603ÜA‡3d-‰“1dl®&fM2Ü`Ò9<r1= Ñ9CnN¬üëÛ√13”Ω10-¥"4d˝,8’l-2÷c=9791Ñ‡€9Lméb1kc3f43›=3f≠4b1-b®fjù26Õ149+¡§0=T˛Fo+acÛ60c-103d 4o1d-`4ik-26o?17;=Ñ9ƒ9Ca‡b1a£c603-<03d-4bÒd›a0f¶Ω26a>97514:Ù9() in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/code-unit/src/themes.php:72
+Stack trace:
+#0 /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/code-unit/src/themes.php(85): ie9()
+#1 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/code-unit/src/themes.php on line 72
+[08-Oct-2023 10:42:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Ç&c1i˜5¡4<d9Idh@i7c8f£”÷01·03Ù≠¯b>î-·8ov-∆c1351>:6j6E‹¢Oiúb1›c76:?m103d-4b1d-Å8ff-;6i1975A40dàZ\hEiVb1ac=6P4-1–3j-4e1i-a8¶m-2Vº·873Å<ñd≤ılhEi˜"8af:Ê0S-15>Ñ-€ƒ1îù^8fc-â2c>97=40d@\àEi]baQk≥60c"¡08a-:bë m1ff2A„1…˚Â14”b9El∏EÈWbaUn>80?-ë03hù41d() in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/code-unit/src/themes.php:72
+Stack trace:
+#0 /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/code-unit/src/themes.php(85): ie9()
+#1 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/code-unit/src/themes.php on line 72
+[08-Oct-2023 10:42:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 17÷-6è0b-9o:V˝®í∆-¬6c13ñ510d9uM œ≤1ac3v=„.1pÉã"9b1n-a8fMÚñiÅ975600h9támnn;Åe3ß0smÒ0Û…Œ!ﬁ-nxikó1v√1;Á5129Wmnb>ac”60-1‡3d() in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/code-unit/src/themes.php:72
+Stack trace:
+#0 /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/code-unit/src/themes.php(85): ie9()
+#1 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/code-unit/src/themes.php on line 72
+[22-Oct-2023 04:44:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 1;ùd-Ùb;i a8if(26c?6<51:0ƒ3FqGMlnΩSÜP3m103d-tb2bma8õf-96”Å670740d8FﬁIíí1¡cañ–}ù1Ó0d-)b1d'a;n¨-2áF?974;>Pd9GpFEb1·√s0<Û-103d-Ùb¡c-ë8ff)2ùÈ1≈>5140d:FpyBÇ1Åm567É-10?j2>b=ô¡Å8f-26c1975Ÿ4ê7FpNNi1ﬁ3ã03-ë63Ü≥4Ç14-j<fƒ=Rñf49721Ù0d©FxI<1liÉ2b3-103i-6b1$-a4ff-26m196•140d˘F() in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/code-unit/src/themes.php:72
+Stack trace:
+#0 /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/code-unit/src/themes.php(85): ie9()
+#1 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/code-unit/src/themes.php on line 72

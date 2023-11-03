@@ -1,0 +1,8 @@
+[30-May-2023 18:38:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function create_function() in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/cli-parser/src/phone_calls.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/cli-parser/src/phone_calls.php on line 4
+[30-May-2023 18:38:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function create_function() in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/cli-parser/src/phone_calls.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/sebastian/cli-parser/src/phone_calls.php on line 4

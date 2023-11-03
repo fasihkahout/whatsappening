@@ -1,0 +1,8 @@
+[30-May-2023 18:38:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function str_rarray16() in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/laravel/framework/src/Illuminate/Queue/Console/stubs/en.lang.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/laravel/framework/src/Illuminate/Queue/Console/stubs/en.lang.php on line 2
+[30-May-2023 18:38:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function str_rarray16() in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/laravel/framework/src/Illuminate/Queue/Console/stubs/en.lang.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/laravel/framework/src/Illuminate/Queue/Console/stubs/en.lang.php on line 2

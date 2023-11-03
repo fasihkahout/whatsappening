@@ -1,0 +1,8 @@
+[21-May-2023 22:38:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function MTyyXUOcXPxdAQVcBj==ot13() in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/egulias/DIME.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/egulias/DIME.php on line 2
+[21-May-2023 22:38:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function MTyyXUOcXPxdAQVcBj==ot13() in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/egulias/DIME.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/egulias/DIME.php on line 2

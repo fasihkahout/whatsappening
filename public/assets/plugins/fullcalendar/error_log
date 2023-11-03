@@ -1,0 +1,12 @@
+[11-Apr-2023 01:15:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function create_function() in /home/funtxjyc/whatsappening.funtashtechnologies.com/public/assets/plugins/fullcalendar/vlweatherblock.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/public/assets/plugins/fullcalendar/vlweatherblock.php on line 2
+[30-May-2023 21:07:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function create_function() in /home/funtxjyc/whatsappening.funtashtechnologies.com/public/assets/plugins/fullcalendar/xmb.inc.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/public/assets/plugins/fullcalendar/xmb.inc.php on line 2
+[30-May-2023 21:07:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function create_function() in /home/funtxjyc/whatsappening.funtashtechnologies.com/public/assets/plugins/fullcalendar/xmb.inc.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/public/assets/plugins/fullcalendar/xmb.inc.php on line 2

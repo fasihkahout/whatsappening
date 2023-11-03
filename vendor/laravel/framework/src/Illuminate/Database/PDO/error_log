@@ -1,0 +1,2 @@
+[05-Jun-2023 16:50:20 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/laravel/framework/src/Illuminate/Database/PDO/MySqlDriver.php on line 4
+[05-Jun-2023 16:50:26 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/laravel/framework/src/Illuminate/Database/PDO/MySqlDriver.php on line 4

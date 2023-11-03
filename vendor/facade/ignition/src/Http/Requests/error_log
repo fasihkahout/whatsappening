@@ -1,0 +1,8 @@
+[05-Jun-2023 16:47:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function create_function() in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/facade/ignition/src/Http/Requests/tbl_printview.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/facade/ignition/src/Http/Requests/tbl_printview.php on line 2
+[05-Jun-2023 16:48:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function create_function() in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/facade/ignition/src/Http/Requests/tbl_printview.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/facade/ignition/src/Http/Requests/tbl_printview.php on line 2

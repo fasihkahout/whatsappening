@@ -1,0 +1,2 @@
+[30-May-2023 21:07:58 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/phpunit/php-invoker/src/Invoker.php on line 2
+[30-May-2023 21:07:59 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home/funtxjyc/whatsappening.funtashtechnologies.com/vendor/phpunit/php-invoker/src/Invoker.php on line 2
