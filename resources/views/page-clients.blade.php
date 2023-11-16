@@ -50,8 +50,9 @@
                                     <span class="blink"></span>
                                 </div>
                                 <div class="card-body text-center ribbon">
-                                    <img class="rounded-circle img-thumbnail w100"
-                                        src="/uploads/images/{{ $form->file_path }}"alt="">
+                                    <img 
+                                        src="{{ asset('/images/' . $form->map_picture) }}"
+alt="" style=" border-radius: 100% ;width: 50px;">
                                     <h6 class="mt-3 mb-0">{{ $form->fname }} {{ $form->lname }}</h6>
                                     <span>{{ $form->email }}</span>
                                     <ul class="mt-3 list-unstyled d-flex justify-content-center">

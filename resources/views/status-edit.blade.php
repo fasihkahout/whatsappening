@@ -93,98 +93,85 @@
     <div class="container" style=" margin-right:60px">
         <div class="container col-md-8">
             <div class="row">
-                <form class="{{ route('customstatusedit', $form->id) }}" method="post" enctype="multipart/form-data">
+                <form class="{{ route('customstatusedit', $user->id) }}" method="post" enctype="multipart/form-data">
                     @csrf
                     @method('POST')
                     <div class="row">
                         <div class="col-md-6">
                             <label class="form-label">Choose Profile Pic</label>
-                            <div> <img width="50px" src="/uploads/images/{{ $form->file_path }}">
+                            <div><input
+                                id="" name="map_picture"
+                                type="file" class="form-control" aria-required="true"
+                                aria-invalid="false"> <img width="100px" src="">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label class="form-label">Email</label>
-                                <input type="email" name="email" class="form-control" placeholder="" value="{{ $form->email }}" style="margin-bottom: 12px">
+                                <input type="email" name="email" class="form-control" placeholder="" value="{{ $user->email }}" style="margin-bottom: 12px">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label class="form-label">First Name</label>
-                                <input type="text" name="fname" class="form-control" placeholder="" value="{{ $form->fname }}" style="margin-bottom: 12px">
+                                <input type="text" name="fname" class="form-control" placeholder="" value="{{ $user->fname }}" style="margin-bottom: 12px">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label class="form-label">Last Name</label>
-                                <input type="text" name="lname" class="form-control" placeholder="" value="{{ $form->lname }}">
+                                <input type="text" name="lname" class="form-control" placeholder="" value="{{ $user->lname }}">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label class="form-label">Bio</label>
-                                <input type="text" name="bio" class="form-control" placeholder="" value="{{ $form->bio }}">
+                                <input type="text" name="bio" class="form-control" placeholder="" value="{{ $user->bio }}">
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label class="form-label">Number</label>
-                                <input type="text" name="number" class="form-control" placeholder="" value="{{ $form->number }}">
-                            </div>
-                        </div>
+                        
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label class="form-label">DOB</label>
-                                <input type="text" name="dob" class="form-control" placeholder="" value="{{ $form->dob }}">
+                                <input type="text" name="dob" class="form-control" placeholder="" value="{{ $user->dob }}">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label class="form-label">Interest</label>
-                                <input type="text" name="interest" class="form-control" placeholder="" value="{{ $form->interest }}">
+                                <input type="text" name="interested_in" class="form-control" placeholder="" value="{{ $user->interest }}">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label class="form-label">Relationship</label>
-                                <input type="text" name="relationship" class="form-control" placeholder="" value="{{ $form->relationship }}">
+                                <input type="text" name="relationship_status" class="form-control" placeholder="" value="{{ $user->relationship }}">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label class="form-label">Age Range</label>
-                                <input type="text" name="age" class="form-control" placeholder="" value="{{ $form->age }}">
+                                <input type="text" name="age" class="form-control" placeholder="" value="{{ $user->age }}">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label class="form-label">Location</label>
-                                <input type="text" name="location" class="form-control" placeholder="" value="{{ $form->location }}">
+                                <input type="text" name="location" class="form-control" placeholder="" value="{{ $user->location }}">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label class="form-label">Distance</label>
-                                <input type="text" name="distance" class="form-control" placeholder="" value="{{ $form->distance }}">
+                                <input type="text" name="distance" class="form-control" placeholder="" value="{{ $user->distance }}">
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label class="form-label">My age</label>
-                                <select class="form-select form-control" name="my_age" aria-label="Default select example">
-                                    <option selected value="{{$form->my_age}}">{{$form->my_age}}</option>
-                                    <option value="25">25</option>
-                                    <option value="26">26</option>
-                                    <option value="27">27</option>
-                                    <option value="28">28</option>
-                                  </select>
-                            </div>
-                        </div>
+                      
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label class="form-label">Pronouns</label>
-                                <select class="form-select form-control" name="pronouns" aria-label="Default select example">
-                                    <option selected value="{{$form->pronouns}}">{{$form->pronouns}}</option>
+                                <select class="form-select form-control" name="pronoun" aria-label="Default select example">
+                                    <option selected value="{{$user->pronoun}}">{{$user->pronoun}}</option>
                                     <option value="he">He</option>
                                     <option value="she">She</option>
                                   </select>
@@ -194,7 +181,7 @@
                             <div class="form-group">
                                 <label class="form-label">Status</label>
                                 <select class="form-select form-select-sm form-control" name="status" aria-label=".form-select-sm example">
-                                    <option selected value="{{$form->status}}">{{$form->status}}</option>
+                                    <option selected value="{{$user->status}}">{{$user->status}}</option>
                                     <option value="Active">Active</option>
                                     <option value="In-Active">Inactive</option>
                                   </select>

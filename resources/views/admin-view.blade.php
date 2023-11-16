@@ -7,19 +7,19 @@
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-<link rel="icon" href="public//assets/images/bottom_circle_red.svg" type="image/x-icon"/>
+<link rel="icon" href="{{asset('assets/images/bottom_circle_red.svg" type="image/x-icon')}}"/>
 
 <title>:: WhatsAppening</title>
 
 <!-- Bootstrap Core and vandor -->
-<link rel="stylesheet" href="public/assets/plugins/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="{{asset('assets/plugins/bootstrap/css/bootstrap.min.css')}}" />
 
 <!-- Plugins css -->
-<link rel="stylesheet" href="public/assets/plugins/charts-c3/c3.min.css"/>
+<link rel="stylesheet" href="{{asset('assets/plugins/charts-c3/c3.min.css')}}"/>
 
 <!-- Core css -->
-<link rel="stylesheet" href="public/assets/css/main.css"/>
-<link rel="stylesheet" href="public/assets/css/theme1.css"/>
+<link rel="stylesheet" href="{{asset('assets/css/main.css')}}"/>
+<link rel="stylesheet" href="{{asset('assets/css/theme1.css')}}"/>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
@@ -33,9 +33,9 @@
         <div id="header_top" class="header_top">
             <div class="container">
                 <div class="hleft">
-                    <a class="header-brand" href="{{url('index')}}"><i class=""><img src="public/assets/images/bottom_circle_red.svg" alt=""></i></a>
+                    <a class="header-brand" href="{{url('index')}}"><i class=""><img src="{{asset('assets/images/bottom_circle_red.svg')}}" alt=""></i></a>
                     <div class="dropdown">
-                        <a href="javascript:void(0)" class="nav-link user_btn"><img class="avatar" src="public/assets/images/user.png" alt="" data-toggle="tooltip" data-placement="right" title="User Menu"/></a>
+                        <a href="javascript:void(0)" class="nav-link user_btn"><img class="avatar" src="{{asset('assets/images/user.png')}}" alt="" data-toggle="tooltip" data-placement="right" title="User Menu"/></a>
                         <a href="{{url('/userpage')}}" class="nav-link icon xs-hide"><i class="fa fa-user" aria-hidden="true"></i></a>
                         <a href="{{url('/user-view-table')}}" class="nav-link icon xs-hide"><i class="fa fa-search"></i></a>
                         <a href="{{url('/app-setting')}}"  class="nav-link icon xs-hide"><i class="fa fa-cog" aria-hidden="true"></i></a>
@@ -81,91 +81,79 @@
                         <ul class="">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <img class="card-img-top" src="public/uploads/images/{{ $form->file_path }}" alt="Card image cap"
+                                    <img class="card-img-top" src="{{ asset('/images/' . $user->map_picture) }}" alt="Card image cap"
                                         width="250px" height="200px">
                                 </div>
                                 <div class="col-md-4" style="margin-top: 50px">
                                     <div class="form-group">
                                         <label class="form-label">First Name</label>
                                         <input type="text" name="fname" class="form-control" placeholder=""
-                                            value="{{ $form->fname }}">
+                                            value="{{ $user->fname }}">
                                     </div>
                                 </div>
                                 <div class="col-md-4" style="margin-top: 50px">
                                     <div class="form-group">
                                         <label class="form-label">Last Name</label>
                                         <input type="text" name="lname" class="form-control" placeholder=""
-                                            value="{{ $form->lname }}">
+                                            value="{{ $user->lname }}">
                                     </div>
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="form-group">
-                                        <label class="form-label">Number</label>
-                                        <input type="text" name="number" class="form-control" placeholder=""
-                                            value="{{ $form->number }}">
-                                    </div>
-                                </div>
+                              
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label class="form-label">DOB</label>
                                         <input type="text" name="dob" class="form-control" placeholder=""
-                                            value="{{ $form->dob }}">
+                                            value="{{ $user->dob }}">
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label class="form-label">Interest</label>
                                         <input type="text" name="interest" class="form-control" placeholder=""
-                                            value="{{ $form->interest }}">
+                                            value="{{ $user->interested_in }}">
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label class="form-label">Relationship</label>
                                         <input type="text" name="relationship" class="form-control" placeholder=""
-                                            value="{{ $form->relationship }}">
+                                            value="{{ $user->relationship_status }}">
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label class="form-label">Age Range</label>
                                         <input type="text" name="age" class="form-control" placeholder=""
-                                            value="{{ $form->age }}">
+                                            value="{{ $user->age }}">
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label class="form-label">Location</label>
                                         <input type="text" name="location" class="form-control" placeholder=""
-                                            value="{{ $form->location }}">
+                                            value="{{ $user->location }}">
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label class="form-label">Distance</label>
                                         <input type="text" name="distance" class="form-control" placeholder=""
-                                            value="{{ $form->distance }}">
+                                            value="{{ $user->distance }}">
                                     </div>
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="form-group">
-                                        <label class="form-label">My Age</label>
-                                        <input type="text" name="my_age" class="form-control" placeholder=""
-                                            value="{{ $form->my_age }}">
-                                    </div>
-                                </div>
+                                
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label class="form-label">Pronouns</label>
                                         <input type="text" name="pronouns" class="form-control" placeholder=""
-                                            value="{{ $form->pronouns }}">
+                                            value="{{ $user->pronoun }}">
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label class="form-label">Status</label>
                                         <input type="text" name="status" class="form-control" placeholder=""
-                                            value="{{ $form->status }}">
+                                            value="{{ $user->status }}">
                                     </div>
                                 </div>
                             </div>
@@ -179,14 +167,14 @@
     </div>
 </body>
 </html>
-<script src="public/assets/bundles/lib.vendor.bundle.js"></script>
+<script src="{{asset('assets/bundles/lib.vendor.bundle.js')}}"></script>
 
-<script src="public/assets/bundles/fullcalendar.bundle.js"></script>
-<script src="public/assets/bundles/knobjs.bundle.js"></script>
+<script src="{{asset('assets/bundles/fullcalendar.bundle.js')}}"></script>
+<script src="{{asset('assets/bundles/knobjs.bundle.js')}}"></script>
 
-<script src="public/assets/js/core.js"></script>
-<script src="public/assets/js/page/calendar.js"></script>
-<script src="public/assets/js/chart/knobjs.js"></script>
+<script src="{{asset('assets/js/core.js')}}"></script>
+<script src="{{asset('assets/js/page/calendar.js')}}"></script>
+<script src="{{asset('assets/js/chart/knobjs.js')}}"></script>
 </body>
 
 <!-- soccer/project/page-profile.html  07 Jan 2020 03:41:01 GMT -->

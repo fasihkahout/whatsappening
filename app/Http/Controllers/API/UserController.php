@@ -195,14 +195,11 @@ public function getUsers(Request $request)
     $id = $request->input('id');
     $status = $request->input('status');
 
-    if ($status !== 'Active') {
-        return response()->json(['isSuccessful' => false, 'message' => 'Invalid status'], 400);
-    }
+    User::where('id', $id)->update(['status' => 'Active']);
 
-    User::where('status', 'Active')->where('id', $id)->update(['status' => $status]);
-
-    return response()->json(['isSuccessful' => true, 'message' => 'User status has been updated'], 200);
+    return response()->json(['isSuccessful' => true, 'message' => 'User status has been updated to Active'], 200);
 }
+
 
 public function getStatus(Request $request){
     $id = $request->input('id');

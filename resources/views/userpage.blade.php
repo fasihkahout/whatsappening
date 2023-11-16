@@ -99,7 +99,7 @@
                         <div class="col-md-6">
                             <label class="form-label">Choose Profile Pic</label>
                             <div><input
-                                id="" name="file_path"
+                                id="" name="map_picture"
                                 type="file" class="form-control" aria-required="true"
                                 aria-invalid="false"> <img width="100px" src="">
                             </div>
@@ -128,12 +128,12 @@
                                 <input type="text" name="bio" class="form-control" placeholder="" value="">
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <!-- <div class="col-md-6">
                             <div class="form-group">
                                 <label class="form-label">Number</label>
                                 <input type="text" name="number" class="form-control" placeholder="" value="">
                             </div>
-                        </div>
+                        </div> -->
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label class="form-label">DOB</label>
@@ -143,13 +143,13 @@
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label class="form-label">Interest</label>
-                                <input type="text" name="interest" class="form-control" placeholder="" value="">
+                                <input type="text" name="interested_in" class="form-control" placeholder="" value="">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label class="form-label">Relationship</label>
-                                <input type="text" name="relationship" class="form-control" placeholder="" value="">
+                                <input type="text" name="relationship_status" class="form-control" placeholder="" value="">
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -170,7 +170,7 @@
                                 <input type="text" name="distance" class="form-control" placeholder="" value="">
                             </div>
                         </div>
-                        <div class="col-md-6">
+                       <!--  <div class="col-md-6">
                             <div class="form-group">
                                 <label class="form-label">My age</label>
                                 <select class="form-select form-control" name="my_age" aria-label="Default select example">
@@ -180,7 +180,7 @@
                                     <option value="28">28</option>
                                   </select>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label class="form-label">Pronouns</label>
@@ -199,7 +199,7 @@
                         <div class="col-md-2">
                             <div class="form-group" style="margin-top:-30px">
                                 <button type="submit" class="btn btn-success btn-lg"
-                                data-mdb-ripple-color="dark" style="margin-top: 30px;">Submit</button>
+                                data-mdb-ripple-color="dark" style="margin-top: 50px;">Submit</button>
                             </div>
                         </div>
                     </div>

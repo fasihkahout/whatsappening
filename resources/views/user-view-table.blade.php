@@ -7,19 +7,19 @@
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-<link rel="icon" href="/assets/images/bottom_circle_red.svg" type="image/x-icon"/>
+<link rel="icon" href="{{asset('assets/images/bottom_circle_red.svg')}}" type="image/x-icon"/>
 
 <title>:: WhatsAppening</title>
 
 <!-- Bootstrap Core and vandor -->
-<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="{{asset('assets/plugins/bootstrap/css/bootstrap.min.css')}}" />
 
 <!-- Plugins css -->
-<link rel="stylesheet" href="assets/plugins/charts-c3/c3.min.css"/>
+<link rel="stylesheet" href="{{asset('assets/plugins/charts-c3/c3.min.css')}}"/>
 
 <!-- Core css -->
-<link rel="stylesheet" href="assets/css/main.css"/>
-<link rel="stylesheet" href="assets/css/theme1.css"/>
+<link rel="stylesheet" href="{{asset('assets/css/main.css')}}"/>
+<link rel="stylesheet" href="{{asset('assets/css/theme1.css')}}"/>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
@@ -35,9 +35,9 @@
             <div id="header_top" class="header_top">
                 <div class="container">
                     <div class="hleft">
-                        <a class="header-brand" href="{{url('index')}}"><i class=""><img src="assets/images/bottom_circle_red.svg" alt=""></i></a>
+                        <a class="header-brand" href="{{url('index')}}"><i class=""><img src="{{asset('assets/images/bottom_circle_red.svg')}}" alt=""></i></a>
                         <div class="dropdown">
-                            <a href="javascript:void(0)" class="nav-link user_btn"><img class="avatar" src="assets/images/user.png" alt="" data-toggle="tooltip" data-placement="right" title="User Menu"/></a>
+                            <a href="javascript:void(0)" class="nav-link user_btn"><img class="avatar" src="{{asset('assets/images/user.png')}}" alt="" data-toggle="tooltip" data-placement="right" title="User Menu"/></a>
                             <a href="{{url('/userpage')}}" class="nav-link icon xs-hide"><i class="fa fa-user" aria-hidden="true"></i></a>
                         </div>
                     </div>
@@ -100,7 +100,6 @@
                       <tr>
                         <th scope="col">First Name</th>
                         <th scope="col">Last Name</th>
-                        <th scope="col">Number</th>
 
                         <th scope="col">Status</th>
                         <th scope="col">Action</th>
@@ -111,7 +110,7 @@
                         <tr>
                             <td scope = "col">{{ $form->fname }}</td>
                             <td scope = "col">{{ $form->lname }}</td>
-                            <td scope = "col">{{ $form->number }}</td>
+                            <!-- <td scope = "col">{{ $form->number }}</td> -->
                             <td scope = "col">{{ $form->status }}</td>
                             <td scope = "col">
                                 <a href="{{route('adminview', $form->id)}}"><i class="fa fa-eye" style="color: black; margin-right:100px"></i></i></a>
