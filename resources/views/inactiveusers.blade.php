@@ -50,24 +50,33 @@
                                     <span class="blink"></span>
                                 </div>
                                 <div class="card-body text-center ribbon">
-                                    <img class="rounded-circle img-thumbnail w100"
-                                        src="/uploads/images/{{ $form->file_path }}"alt="">
+                                    <img 
+                                        src="{{ asset('/images/' . $form->map_picture) }}"
+alt="" style=" border-radius: 50% ;width: 50px;">
                                     <h6 class="mt-3 mb-0">{{ $form->fname }} {{ $form->lname }}</h6>
                                     <span>{{ $form->email }}</span>
-                                    <ul class="mt-3 list-unstyled d-flex justify-content-center">
+                                   <!--  <ul class="mt-3 list-unstyled d-flex justify-content-center">
                                         <label class="switch">
                                             <input type="checkbox">
                                             <span class="slider round"></span>
                                         </label>
-                                    </ul>
-                                    <button class="btn btn-default btn-sm"> <a
+                                    </ul> -->
+                                    <button class="btn btn-default btn-sm" style="margin-top : 10px" > <a
                                             href="{{ route('adminview', $form->id) }}">View
                                             Profile</a>
                                     </button>
-                                    <button class="btn btn-default btn-sm"> <a
+                                    <button class="btn btn-default btn-sm" style="margin-top : 10px" > <a
                                         href="{{ route('delete', $form->id) }}">Delete
                                         Profile</a>
                                     </button>
+                                     <form action="{{  route('updateblockstatus', ['id' => $form->id]) }}" method="POST">
+                                                        @csrf
+                                                        @method('PUT')
+                                      <button type="submit" class="btn btn-default btn-sm" style="margin-top: 10px; color: #00a9bd;" value="Un-Block" name="block_status">
+    <a>Un-Block Profile</a>
+</button>
+
+                                   </form>
                                 </div>
 
                             </div>

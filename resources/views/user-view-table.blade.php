@@ -1,100 +1,54 @@
-<!doctype html>
-<html lang="en" dir="ltr">
+@extends('main')
 
-<!-- soccer/project/  07 Jan 2020 03:36:49 GMT -->
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
+@section('main-section')
 
-<link rel="icon" href="{{asset('assets/images/bottom_circle_red.svg')}}" type="image/x-icon"/>
-
-<title>:: WhatsAppening</title>
-
-<!-- Bootstrap Core and vandor -->
-<link rel="stylesheet" href="{{asset('assets/plugins/bootstrap/css/bootstrap.min.css')}}" />
-
-<!-- Plugins css -->
-<link rel="stylesheet" href="{{asset('assets/plugins/charts-c3/c3.min.css')}}"/>
-
-<!-- Core css -->
-<link rel="stylesheet" href="{{asset('assets/css/main.css')}}"/>
-<link rel="stylesheet" href="{{asset('assets/css/theme1.css')}}"/>
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-   body{
-    overflow: hidden;
-   }
-</style>
-</head>
-
-<body>
-    <body>
-        <div class="sidebar">
-            <div id="header_top" class="header_top">
-                <div class="container">
-                    <div class="hleft">
-                        <a class="header-brand" href="{{url('index')}}"><i class=""><img src="{{asset('assets/images/bottom_circle_red.svg')}}" alt=""></i></a>
-                        <div class="dropdown">
-                            <a href="javascript:void(0)" class="nav-link user_btn"><img class="avatar" src="{{asset('assets/images/user.png')}}" alt="" data-toggle="tooltip" data-placement="right" title="User Menu"/></a>
-                            <a href="{{url('/userpage')}}" class="nav-link icon xs-hide"><i class="fa fa-user" aria-hidden="true"></i></a>
+@section('title', 'Active Users')
+<div class="section-body mt-3">
+    <div class="container-fluid">
+        <div class="row clearfix">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-md-flex justify-content-between mb-2">
+                            <ul class="nav nav-tabs b-none">
+                                <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#list"><i
+                                            class="fa fa-list-ul"></i>Users List</a></li>
+                               
+                            </ul>
                         </div>
-                    </div>
-                    <div class="hright">
-                        <div class="dropdown">
-                            <a href="javascript:void(0)" class="nav-link icon settingbar"><i class="fa fa-gear fa-spin" data-toggle="tooltip" data-placement="right" title="Settings"></i></a>
-                            <a href="javascript:void(0)" class="nav-link icon menu_toggle"><i class="fa  fa-align-left"></i></a>
+                        <div class="row">
+                           <!--  <div class="col-lg-4 col-md-4 col-sm-6">
+                                <div class="input-group mb-1">
+                                    <input type="text" class="form-control" placeholder="User Name">
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-4 col-sm-6">
+                                <div class="input-group mb-1">
+                                    <input type="email" class="form-control" placeholder="Email">
+                                </div> -->
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <a href="{{url('/userpage')}}" class="btn btn-primary btn-block mb-1"
+                                    title="">Add User</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="left-sidebar" class="sidebar ">
-            <h5 class="brand-name">WhatsAppening <a href="javascript:void(0)" class="menu_option float-right"><i class="icon-grid font-16" data-toggle="tooltip" data-placement="left" title="Grid & List Toggle"></i></a></h5>
-            <nav id="left-sidebar-nav" class="sidebar-nav">
-                <ul class="metismenu">
-                    <li class="active"><a href="{{url('/index')}}"><i class="fa fa-dashboard"></i><span>Dashboard</span></a></li>
-                    <li>
-                        <a href="javascript:void(0)" class="has-arrow arrow-c"><i class="fa fa-user" aria-hidden="true"></i><span>Users</span></a>
-                        <ul>
-                            <li><a href="{{url('/page-clients')}}">Active User</a></li>
-                            <li><a href="{{url('/user-view-table')}}">User Profiles</a></li>
-                            <li><a href="{{url('/inactiveusers')}}">Blocked User</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="{{url('/app-chat')}}"><i class="fa fa-comments"></i><span>User Chat</span></a></li>
-                    <li>
-                        <a href="javascript:void(0)" class="has-arrow arrow-c"><i class="fa fa-user" aria-hidden="true"></i><span>Support Chat</span></a>
-                        <ul>
-                            <li><a href="{{url('/adminchat')}}">New Chats</a></li>
-                            <li><a href="{{url('/adminchat')}}">On Going Chats</a></li>
-                            <li><a href="{{url('/adminchat')}}">Completed Chats</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="{{url('/report-abuse')}}"><i class="fa fa-flag" aria-hidden="true"></i><span>Abuse Reports</span></a></li>
-                    <li><a href="{{('/app-setting')}}"><i class="fa fa-gear"></i><span>App Setting</span></a></li>
-                    <li><a href="{{('/app-setting')}}"><i class="fa fa-gear"></i><span>General Setting</span></a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="page">
-            <div id="page_top" class="section-body top_dark">
-                <div class="container">
-                    <div class="page-header">
-                        <div class="left">
-                            <a href="javascript:void(0)" class="icon menu_toggle mr-3"><i class="fa  fa-align-left"></i></a>
-                            <h1 class="page-title">Users</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container" style="margin-left: 310px; margin-top:50px;">
+    </div>
+</div>
+       <!--  <div class="container" style="margin-left: 310px; margin-top:50px;">
             <a href="{{url('/userpage')}}"><button class="btn btn-success">Add User</button></a>
             <br>
             <br>
-            <div class="container" style=" margin-right:20px; color:#2b3035;">
+            <div class="container" style=" margin-right:20px; color:#2b3035;"> -->
+                <div class="section-body">
+    <div class="container-fluid">
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="list" role="tabpanel">
+                <div class="row clearfix">
+
                 <table class="table">
                     <thead>
                       <tr>
@@ -116,13 +70,14 @@
                                 <a href="{{route('adminview', $form->id)}}"><i class="fa fa-eye" style="color: black; margin-right:100px"></i></i></a>
                                 <a href="{{route('delete', $form->id)}}"><i class="fa fa-trash" style="color: red; margin-left:-85px"></i></a>
                                 <a href="{{route('statusedit', $form->id)}}"><i class="fa fa-pencil" style="color: blue; margin-left:18px"></i></a>
+                                 
                             </td>
                         </tr>
                         @endforeach
                     </tbody>
                 </table>
             </div>
-            <nav aria-label="Page navigation example" style="margin-right:120px">
+            <!-- <nav aria-label="Page navigation example" style="margin-right:120px">
                 <ul class="pagination justify-content-end">
                   <li class="page-item disabled">
                     <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
@@ -134,8 +89,18 @@
                     <a class="page-link" href="#">Next</a>
                   </li>
                 </ul>
-              </nav>
+              </nav> -->
         </div>
+@endsection
+
+<script src="assets/bundles/lib.vendor.bundle.js"></script>
+
+<script src="assets/plugins/dropify/js/dropify.min.js"></script>
+
+<script src="assets/js/core.js"></script>
+<script src="assets/js/form/dropify.js"></script>
 </body>
+
+<!-- soccer/project/project-clients.html  07 Jan 2020 03:41:29 GMT -->
 
 </html>

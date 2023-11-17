@@ -57,10 +57,12 @@ Route::get('/page-profile' , [IndexController::class , 'pageprofile']);
 Route::get('/app-setting' , [IndexController::class , 'app2setting']);
 Route::get('/chat' , [IndexController::class , 'chat']);
 Route::post('/sendMessage' , [IndexController::class , 'customchat']);
+Route::put('/updateblockstatus{id}' , [IndexController::class , 'updateblockstatus'])->name('updateblockstatus');
 
 //Form Controller
 Route::get('/userpage' , [UserController::class , 'userpage']);
 Route::post('/customuserpage' , [UserController::class , 'customuserpage']);
+
 
 //Admin form view // UserController
 Route::get('/admin-view/{id}', [UserController::class, 'adminview'])->name('adminview');

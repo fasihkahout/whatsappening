@@ -33,21 +33,21 @@ class IndexController extends Controller
         }
     }
 
-    public function updateBlockStatus(Request $request)
+    public function updateblockstatus(Request $request, $id)
 {
     $blockStatus = $request->input('block_status');
 
     // Assuming you have a 'users' table with a 'block_status' column
-    $user = User::where('id', $id)->update(['block_status' => $blockStatus]);
+    $form = User::where('id', $id)->update(['block_status' => $blockStatus]);
 
-    return redirect()->route('page-clients')->with('success', 'Block status has been updated');
+   return redirect()->back()->with('success', 'Block status has been updated');
 }
 
     public function inactiveusers()
     {
         if (Session()->get('admin_id') != '') {
             $data = Admin::all();
-            $inactiveUsers = DB::table('blocked_users')->where('status', 'blocked')->get();
+            $inactiveUsers =  User::where('status', 'Active')->where('block_status', 'Block')->get();
             return view('inactiveusers', ['form' => $inactiveUsers]);
             return view('page-clients');
         } else {

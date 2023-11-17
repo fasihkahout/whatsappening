@@ -109,14 +109,14 @@
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label class="form-label">Interest</label>
-                                        <input type="text" name="interest" class="form-control" placeholder=""
+                                        <input type="text" name="interested_in" class="form-control" placeholder=""
                                             value="{{ $user->interested_in }}">
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label class="form-label">Relationship</label>
-                                        <input type="text" name="relationship" class="form-control" placeholder=""
+                                        <input type="text" name="relationship_status" class="form-control" placeholder=""
                                             value="{{ $user->relationship_status }}">
                                     </div>
                                 </div>
@@ -137,15 +137,15 @@
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label class="form-label">Distance</label>
-                                        <input type="text" name="distance" class="form-control" placeholder=""
-                                            value="{{ $user->distance }}">
+                                        <input type="text" name="max_distance" class="form-control" placeholder=""
+                                            value="{{ $user->max_distance }}">
                                     </div>
                                 </div>
                                 
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label class="form-label">Pronouns</label>
-                                        <input type="text" name="pronouns" class="form-control" placeholder=""
+                                        <input type="text" name="pronoun" class="form-control" placeholder=""
                                             value="{{ $user->pronoun }}">
                                     </div>
                                 </div>

@@ -167,7 +167,7 @@
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label class="form-label">Distance</label>
-                                <input type="text" name="distance" class="form-control" placeholder="" value="">
+                                <input type="text" name="max_distance" class="form-control" placeholder="" value="">
                             </div>
                         </div>
                        <!--  <div class="col-md-6">

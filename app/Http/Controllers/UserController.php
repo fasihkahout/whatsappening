@@ -59,7 +59,7 @@ class UserController extends Controller
 
     public function userviewtable(){
     
-        $user = User::all();
+        $user =User::where('status', 'Active')->where('block_status', 'Un-Block')->get();
         return view('user-view-table' , compact('user'));
     }
 
